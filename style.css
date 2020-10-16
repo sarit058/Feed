@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    font-size: 11px;
+    width: 260px;
+    margin-left: 15px;
+}
+
+.avatar img {
+    width: 2.5em;
+    border-radius: 50%;
+    float: left;
+}
+
+.action {
+    float: right;
+    line-height: 0;
+    background: pink;
+}
+
+.meta {
+    padding-left: 0;
+}
+
+.meta li {
+    display: inline;
+    font-weight: bold;
+}
+
+.meta li:last-child {
+    color: gray;
+    font-size: 9px;
+}
+
+.likes img {
+    width: 11px;
+}
+
+a:link {
+    text-decoration: none;
+}
