@@ -1,7 +1,10 @@
+
+
 body {
-    font-family: Ariel;
+    font-family: calibri;
+    font-weight: 100;
     font-size: 11px;
-    width: 260px;
+    width: 300px;
     margin-left: 15px;
 }
 
@@ -9,12 +12,14 @@ body {
     width: 2.5em;
     border-radius: 50%;
     float: left;
+    margin-right: 15px;
 }
 
 .action {
-    float: right;
-    line-height: 0;
-    background: green;
+    float: left;
+    width: 250;
+    line-height: 15px;
+    margin-top: -7px;
 }
 
 .meta {
@@ -23,16 +28,37 @@ body {
 
 .meta li {
     display: inline;
-    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    word-spacing: 2px;
+}
+
+.meta li:after {
+    padding: 0 10pxS;
 }
 
 .meta li:last-child {
-    color: gray;
+    color: rgb(170, 170, 170);
     font-size: 9px;
+    font-weight: 100;
+}
+
+.likes {
+    margin-top: -5px;
+    background: pink;
 }
 
 .likes img {
-    width: 11px;
+    width: 7px;
+    float: left;
+}
+
+.likes span {
+    color: rgb(170, 170, 170);
+    font-size: 9px;
+    float: left;
+    margin-left: 4px;
+    margin-top: -4px;
 }
 
 a:link {
