@@ -8,6 +8,15 @@ body {
     margin-left: 15px;
 }
 
+.feed {
+    width: 300px;
+    border:
+}
+
+.feed:after {
+    clear: both;
+}
+
 .avatar img {
     width: 2.5em;
     border-radius: 50%;
@@ -16,8 +25,8 @@ body {
 }
 
 .action {
-    float: left;
-    width: 250;
+    float: right;
+    width: 280;
     line-height: 15px;
     margin-top: -7px;
 }
